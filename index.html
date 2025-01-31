@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nike Shoe Platform</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        header {
+            background: #f5f5f5;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .hero {
+            text-align: center;
+            background: #e8f3ff;
+            padding: 50px 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #0056b3;
+        }
+
+        .hero p {
+            color: #555;
+        }
+
+        .hero .search-bar {
+            margin-top: 20px;
+        }
+
+        .hero input {
+            padding: 10px;
+            margin-right: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            background: #0056b3;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .hero button:hover {
+            background: #003f7f;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            background: #0056b3;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .stats div {
+            margin: 0 20px;
+            text-align: center;
+        }
+
+        .specialists {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .specialists h2 {
+            margin-bottom: 20px;
+            color: #0056b3;
+        }
+
+        .specialists .card {
+            display: inline-block;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 200px;
+            text-align: left;
+            background: #f9f9f9;
+            transition: transform 0.3s;
+        }
+
+        .specialists .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .specialists .card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .testimonials {
+            background: #e8f3ff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .testimonials h2 {
+            color: #0056b3;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #ddd;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .newsletter {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .newsletter input {
+            padding: 10px;
+            width: 300px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .newsletter button {
+            padding: 10px;
+            background: #0056b3;
+            color: #fff;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .newsletter button:hover {
+            background: #003f7f;
+        }
+
+        @media (max-width: 768px) {
+            .stats {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .stats div {
+                margin: 10px 0;
+            }
+
+            .specialists .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>Nike Shoe Platform</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Discover Your Perfect Nike Shoe</h1>
+        <p>Explore our collection and find the ideal pair for your style and needs.</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Search by model or category">
+            <input type="text" placeholder="Enter your size">
+            <button onclick="performSearch()">Search</button>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div>
+            <h3>24/7</h3>
+            <p>Customer Support</p>
+        </div>
+        <div>
+            <h3>500+</h3>
+            <p>Available Models</p>
+        </div>
+        <div>
+            <h3>1M+</h3>
+            <p>Satisfied Customers</p>
+        </div>
+    </section>
+
+    <section class="specialists">
+        <h2>Featured Nike Shoes</h2>
+        <div class="card">
+            <img src="<!DOCTYPE html>
+            <html>
+            <head>
+                <title>Nike Shoe Platform</title>
+                <style>
+                    body {
+                        margin: 0;
+                        font-family: Arial, sans-serif;
+                        color: #333;
+                    }
+            
+                    header {
+                        background: #f5f5f5;
+                        padding: 15px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+            
+                    header nav a {
+                        margin: 0 10px;
+                        text-decoration: none;
+                        color: #333;
+                    }
+            
+                    .hero {
+                        text-align: center;
+                        background: #e8f3ff;
+                        padding: 50px 20px;
+                    }
+            
+                    .hero h1 {
+                        font-size: 2.5rem;
+                        color: #0056b3;
+                    }
+            
+                    .hero p {
+                        color: #555;
+                    }
+            
+                    .hero .search-bar {
+                        margin-top: 20px;
+                    }
+            
+                    .hero input {
+                        padding: 10px;
+                        margin-right: 5px;
+                        border: 1px solid #ddd;
+                        border-radius: 5px;
+                    }
+            
+                    .hero button {
+                        padding: 10px 20px;
+                        background: #0056b3;
+                        color: #fff;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        transition: background 0.3s;
+                    }
+            
+                    .hero button:hover {
+                        background: #003f7f;
+                    }
+            
+                    .stats {
+                        display: flex;
+                        justify-content: center;
+                        background: #0056b3;
+                        color: white;
+                        padding: 20px 0;
+                    }
+            
+                    .stats div {
+                        margin: 0 20px;
+                        text-align: center;
+                    }
+            
+                    .specialists {
+                        padding: 40px 20px;
+                        text-align: center;
+                    }
+            
+                    .specialists h2 {
+                        margin-bottom: 20px;
+                        color: #0056b3;
+                    }
+            
+                    .specialists .card {
+                        display: inline-block;
+                        margin: 10px;
+                        padding: 20px;
+                        border: 1px solid #ddd;
+                        border-radius: 5px;
+                        width: 200px;
+                        text-align: left;
+                        background: #f9f9f9;
+                        transition: transform 0.3s;
+                    }
+            
+                    .specialists .card:hover {
+                        transform: translateY(-10px);
+                    }
+            
+                    .specialists .card img {
+                        width: 100%;
+                        border-radius: 5px;
+                    }
+            
+                    .testimonials {
+                        background: #e8f3ff;
+                        padding: 40px 20px;
+                        text-align: center;
+                    }
+            
+                    .testimonials h2 {
+                        color: #0056b3;
+                        margin-bottom: 20px;
+                    }
+            
+                    .footer {
+                        background: #333;
+                        color: white;
+                        padding: 20px;
+                        text-align: center;
+                    }
+            
+                    .footer a {
+                        color: #ddd;
+                        text-decoration: none;
+                        margin: 0 10px;
+                    }
+            
+                    .newsletter {
+                        margin-top: 20px;
+                        text-align: center;
+                    }
+            
+                    .newsletter input {
+                        padding: 10px;
+                        width: 300px;
+                        border: none;
+                        border-radius: 5px 0 0 5px;
+                    }
+            
+                    .newsletter button {
+                        padding: 10px;
+                        background: #0056b3;
+                        color: #fff;
+                        border: none;
+                        border-radius: 0 5px 5px 0;
+                        cursor: pointer;
+                        transition: background 0.3s;
+                    }
+            
+                    .newsletter button:hover {
+                        background: #003f7f;
+                    }
+            
+                    @media (max-width: 768px) {
+                        .stats {
+                            flex-direction: column;
+                            align-items: center;
+                        }
+            
+                        .stats div {
+                            margin: 10px 0;
+                        }
+            
+                        .specialists .card {
+                            width: 90%;
+                        }
+                    }
+                </style>
+            </head>
+            <body>
+                <header>
+                    <div>Nike Shoe Platform</div>
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Products</a>
+                        <a href="#">Contact</a>
+                    </nav>
+                </header>
+            
+                <section class="hero">
+                    <h1>Discover Your Perfect Nike Shoe</h1>
+                    <p>Explore our collection and find the ideal pair for your style and needs.</p>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search by model or category">
+                        <input type="text" placeholder="Enter your size">
+                        <button onclick="performSearch()">Search</button>
+                    </div>
+                </section>
+            
+                <section class="stats">
+                    <div>
+                        <h3>24/7</h3>
+                        <p>Customer Support</p>
+                    </div>
+                    <div>
+                        <h3>500+</h3>
+                        <p>Available Models</p>
+                    </div>
+                    <div>
+                        <h3>1M+</h3>
+                        <p>Satisfied Customers</p>
+                    </div>
+                </section>
+            
+                <section class="specialists">
+                    <h2>Featured Nike Shoes</h2>
+                    <div class="card">
+                        <img src="/images/pexels-photo-267202.jpeg" alt="Nike Air Max">
+                        <h3>Nike Air Max</h3>
+                        <p>Experience unparalleled comfort with the latest Air Max series.</p>
+                    </div>
+                    <div class="card">
+                        <img src="/images/download.jpeg" alt="Nike Running Shoes">
+                        <h3>Nike Running Shoes</h3>
+                        <p>Enhance your performance with our top-tier running collection.</p>
+                    </div>
+                    <div class="card">
+                        <img src="/images/download (1).jpeg" alt="Nike Basketball Shoes">
+                        <h3>Nike Basketball Shoes</h3>
+                        <p>Dominate the court with our advanced basketball footwear.</p>
+                    </div>
+                    <div class="card">
+                        <img src="/images/dunk-low-cacao.webp" alt="Nike Casual Wear">
+                        <h3>Nike Casual Wear</h3>
+                        <p>Stay stylish and comfortable with our casual shoe range.</p>
+                    </div>
+                </section>
+            
+                <section class="testimonials">
+                    <h2>Customer Testimonials</h2>
+                    <p>"The Nike Air Max changed the way I walk. Comfortable and stylish!" - John Doe</p>
+                    <p>"Best running shoes I've ever owned. Highly recommend!" - Jane Smith</p>
+                </section>
+            
+                <footer class="footer">
+                    <p>&copy; 2023 Nike Shoe Platform. All rights reserved.</p>
+                    <nav>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Contact Us</a>
+                    </nav>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Enter your email">
+                        <button>Subscribe</button>
+                    </div>
+                </footer>
+            
+                <script>
+                    function performSearch() {
+                        alert("Search functionality is not implemented yet.");
+                    }
+                </script>
+            </body>
+            </html>" alt="Nike Air Max">
+            <h3>Nike Air Max</h3>
+            <p>Experience unparalleled comfort with the latest Air Max series.</p>
+        </div>
+        <div class="card">
+            <img src="/images/download.jpeg" alt="Nike Running Shoes">
+            <h3>Nike Running Shoes</h3>
+            <p>Enhance your performance with our top-tier running collection.</p>
+        </div>
+        <div class="card">
+            <img src="/images/download.jpeg" alt="Nike Basketball Shoes">
+            <h3>Nike Basketball Shoes</h3>
+            <p>Dominate the court with our advanced basketball footwear.</p>
+        </div>
+        <div class="card">
+            <img src="/images/dunk-low-cacao.webp" alt="Nike Casual Wear">
+            <h3>Nike Casual Wear</h3>
+            <p>Stay stylish and comfortable with our casual shoe range.</p>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Customer Testimonials</h2>
+        <p>"The Nike Air Max changed the way I walk. Comfortable and stylish!" - John Doe</p>
+        <p>"Best running shoes I've ever owned. Highly recommend!" - Jane Smith</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2023 Nike Shoe Platform. All rights reserved.</p>
+        <nav>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+        </nav>
+        <div class="newsletter">
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </div>
+    </footer>
+
+    <script>
+        function performSearch() {
+            alert("Search functionality is not implemented yet.");
+        }
+    </script>
+</body>
+</html>
