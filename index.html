@@ -1,249 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lady Shoes - Your Stylish Footwear Destination</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #fff0f5; /* Lavender blush background */
-      color: #333;
-    }
-    nav {
-      background-color: #fff;
-      padding: 1em;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #333;
-      font-weight: bold;
-    }
-    .search-bar {
-      padding: 0.5em;
-      border: 1px solid #ffb6c1; /* light pink border */
-      border-radius: 4px;
-      width: 200px;
-    }
-    header {
-      background-color: #ffb6c1; /* light pink header */
-      color: white;
-      text-align: center;
-      padding: 2em 0;
-      position: relative;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-    header p {
-      margin: 0.5em 0;
-      font-size: 1.2em;
-    }
-    .header-stats {
-      display: flex;
-      justify-content: center;
-      gap: 2em;
-      margin-top: 1em;
-    }
-    .header-stats div {
-      text-align: center;
-    }
-    .header-stats h2 {
-      margin: 0;
-      font-size: 1.5em;
-    }
-    .header-stats p {
-      margin: 0;
-      font-size: 1em;
-    }
-    header img {
-      position: absolute;
-      right: 20px;
-      top: 50%;
-      transform: translateY(-50%);
-      max-width: 150px;
-      height: auto;
-      border-radius: 8px;
-    }
-    .why-buy {
-      background-color: white;
-      padding: 2em;
-      margin: 20px;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      text-align: center;
-    }
-    .why-buy h2 {
-      margin-top: 0;
-    }
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      padding: 20px;
-    }
-    .product-card {
-      background-color: white;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      width: 250px;
-      margin: 15px;
-      overflow: hidden;
-      text-align: center;
-    }
-    .product-card img {
-      max-width: 100%;
-      height: auto;
-      border-top-left-radius: 8px;
-      border-top-right-radius: 8px;
-    }
-    .product-card h3 {
-      margin: 10px 0;
-    }
-    .product-card p {
-      margin: 5px 0;
-      color: #555;
-    }
-    .product-card button {
-      padding: 0.5em 1em;
-      margin-bottom: 1em;
-      border: none;
-      border-radius: 4px;
-      background-color: #ff69b4;
-      color: white;
-      cursor: pointer;
-    }
-    .product-card button:hover {
-      background-color: #ff1493;
-    }
-    .newsletter {
-      background-color: #fff;
-      padding: 2em;
-      text-align: center;
-      margin: 20px auto;
-      width: 50%;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    .newsletter h2 {
-      margin-bottom: 1em;
-    }
-    .newsletter form {
-      display: flex;
-      justify-content: center;
-      gap: 1em;
-    }
-    .newsletter input[type="email"] {
-      padding: 0.5em;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      width: 300px;
-    }
-    .newsletter button {
-      padding: 0.5em 1em;
-      border: none;
-      border-radius: 4px;
-      background-color: #ff69b4;
-      color: white;
-      cursor: pointer;
-    }
-    .newsletter button:hover {
-      background-color: #ff1493;
-    }
-    footer {
-      background-color: #ffb6c1; /* matching footer color */
-      color: white;
-      text-align: center;
-      padding: 1em 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduVerse Homeschooling and Tuition Schools</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <nav>
-    <div>
-      <a href="#home">Home</a>
-      <a href="#products">Products</a>
-      <a href="#about">About Us</a>
-      <a href="#contact">Contact</a>
-    </div>
-    <input type="text" class="search-bar" placeholder="Search for shoes..." />
-  </nav>
+    <section class="sectionheader">
+        <header class="header">
+            <div class="header1">EduVerse<br>Homeschooling Schools</div>
+            <div class="nav-container">
+                <ul class="nav nav-underline">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="button-container">
+                <button class="btn btn-success" type="button">Log In</button>
+                <button class="btn btn-success" type="button">Sign Up</button>
+            </div>
+        </header>
+    </section>
 
-  <header>
-    <h1>Lady Shoes</h1>
-    <p>Your Ultimate Destination for Stylish Footwear</p>
-    <div class="header-stats">
-      <div>
-        <h2>24/7</h2>
-        <p>Open Always</p>
-      </div>
-      <div>
-        <h2>1M+</h2>
-        <p>Shoes Sold</p>
-      </div>
-      <div>
-        <h2>100+</h2>
-        <p>Branches</p>
-      </div>
-    </div>
-    <!-- Updated header image: high heel shoe for women -->
-    <img src="https://images.unsplash.com/photo-1600185365789-4bd682f0d02d?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80" alt="High Heels" />
-  </header>
+    <main class="sectionheader">
+        <!-- Hero Section -->
+        <section id="hero-section" class="hero-section dark-background">
+            <div class="hero-container">
+                <h2 data-aos="fade-up" data-aos-delay="100">Learning Today,<br>Leading Tomorrow</h2>
+                <p data-aos="fade-up" data-aos-delay="200">We provide personalized, flexible homeschooling programs tailored to your child's unique learning needs, fostering independence and academic growth from the comfort of home.</p>
+            </div>
+        </section>
 
-  <div class="container" id="products">
-    <!-- Product Card 1 -->
-    <div class="product-card">
-      <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80" alt="Stylish Heels" />
-      <h3>Stylish Heels</h3>
-      <p>$79.99</p>
-      <button>Add to Cart</button>
-    </div>
+        <!-- Why Study With Us Section -->
+        <h1 id="hero"><span>Why Study With Us</span></h1>
+        <div class="hero">
+            <div class="hero1">
+                <img src="https://images.pexels.com/photos/4145357/pexels-photo-4145357.jpeg" alt="A homeschooling class in progress">
+            </div>
+            <div class="hero2">
+                <ul class="tick-list">
+                    <li>Personalized Learning: One-on-one tutoring that meets each child where they are.</li>
+                    <li>Flexible Schedule: Learn at your own pace with flexible hours and online options.</li>
+                    <li>Experienced Teachers: Certified educators with a passion for teaching.</li>
+                    <li>Academic Success: Proven track record of improving grades and learning outcomes.</li>
+                    <li>Parents can join the classes as the child(ren) learn.</li>
+                </ul>
+            </div>
+        </div>
 
-    <!-- Product Card 2 -->
-    <div class="product-card">
-      <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80" alt="Comfortable Sneakers" />
-      <h3>Comfortable Sneakers</h3>
-      <p>$59.99</p>
-      <button>Add to Cart</button>
-    </div>
+        <!-- Our Services Section -->
+        <section class="sectionheader">
+            <h1>Our Services</h1>
+            <div class="iconContainer">
+                <div class="icon">
+                    <img src="https://images.pexels.com/photos/4145354/pexels-photo-4145354.jpeg" alt="Home Schooling Support" width="60" height="60">
+                    <p><b>Home Schooling Support:</b><br>Personalized lesson plans, subject-specific tutoring, progress tracking</p>
+                </div>
 
-    <!-- Product Card 3 -->
-    <div class="product-card">
-      <img src="https://images.unsplash.com/photo-1617606002806-94e279c8d250?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&q=80" alt="Elegant Sandals" />
-      <h3>Elegant Sandals</h3>
-      <p>$69.99</p>
-      <button>Add to Cart</button>
-    </div>
-  </div>
+                <div class="icon">
+                    <img src="https://images.pexels.com/photos/5427842/pexels-photo-5427842.jpeg" alt="Subject-Specific Tuition" width="60" height="60">
+                    <p><b>Subject-Specific Tuition:</b><br> Math, Science, English, Foreign Languages, Test Preparation.</p>
+                </div>
 
-  <section class="why-buy">
-    <h2>Why Buy From Us?</h2>
-    <p>
-      At Lady Shoes, we offer the latest trends in women's footwear, combining style, comfort, and affordability. Our curated collection ensures you find the perfect pair for every occasion. With fast shipping, easy returns, and exceptional customer service, we make shopping for shoes a delightful experience.
-    </p>
-  </section>
+                <div class="icon">
+                    <img src="https://images.pexels.com/photos/4144222/pexels-photo-4144222.jpeg" alt="Online Classes" width="60" height="60">
+                    <p><b>Online Classes:</b> <br>Offering virtual learning options.</p>
+                </div>
 
-  <!-- Newsletter Section -->
-  <div class="newsletter">
-    <h2>Subscribe To Our Newsletter</h2>
-    <p>Get the latest updates on new arrivals, exclusive offers, and more!</p>
-    <form>
-      <input type="email" placeholder="Enter your email address" required />
-      <button type="submit">Subscribe</button>
-    </form>
-  </div>
+                <div class="icon">
+                    <img src="https://images.pexels.com/photos/4145348/pexels-photo-4145348.jpeg" alt="After-School Programs" width="60" height="60">
+                    <p><b>After-School Programs:</b><br> Homework help, enrichment classes, or extra-curricular activities.</p>
+                </div>
 
-  <footer>
-    <p>&copy; 2023 Lady Shoes. All rights reserved.</p>
-  </footer>
+                <div class="icon">
+                    <img src="https://images.pexels.com/photos/4143799/pexels-photo-4143799.jpeg" alt="Exam Preparation" width="60" height="60">
+                    <p><b>Exam Preparation:</b><br> SAT, ACT, GCSEs, and more.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonial">
+            <div class="testimonials">
+                <div class="part1">
+                    <p id="part-1"><b>Some</b><b id="part1">Testimonials</b><br> from our <b id="part1">Community</b></p>
+                    <p>"Homeschooling has been a game changer for our child.<br> The personalized approach has helped them thrive academically and build confidence."</p><br>
+                </div>
+
+                <div class="member">
+                    <img src="https://images.pexels.com/photos/3762800/pexels-photo-3762800.jpeg" alt="A member profile icon"><span><b>Janel Biyaki</b></span><br>
+                    <span class="date">22/1/2025</span>
+                    <p>"Homeschooling has transformed our child's learning experience. With personalized attention and tailored lessons, they’ve not only caught up but excelled in areas we thought were challenging. The flexibility and one-on-one support have made all the difference in their academic success!"</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Subscription Banner -->
+        <section class="banner">
+            <h1>Subscribe to our Newsletter</h1>
+            <div class="newsletter-banner">
+                <input type="email" placeholder="Your Email Address" class="email-input">
+                <span class="arrow">→</span>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <hr>
+                <p>&copy; 2025 EduVerse. All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="index.js"></script>
 </body>
 </html>

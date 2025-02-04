@@ -1,0 +1,185 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff0f5; /* Lavender blush background */
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.search-bar {
+    padding: 0.5em;
+    border: 1px solid #ffb6c1; /* Light pink border */
+    border-radius: 4px;
+    width: 200px;
+}
+
+/* Header Section */
+header {
+    background-color: #ffb6c1; /* Light pink header */
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0.5em 0;
+    font-size: 1.2em;
+}
+
+/* Header Statistics */
+.header-stats {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.header-stats div {
+    text-align: center;
+}
+
+.header-stats h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.header-stats p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Header Image */
+header img {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Why Buy Section */
+.why-buy {
+    background-color: white;
+    padding: 2em;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.why-buy h2 {
+    margin-top: 0;
+}
+
+/* Product Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Product Cards */
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+}
+
+.product-card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Buttons */
+.product-card button, .newsletter button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff69b4;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product-card button:hover, .newsletter button:hover {
+    background-color: #ff1493;
+}
+
+/* Newsletter Section */
+.newsletter {
+    background-color: #fff;
+    padding: 2em;
+    text-align: center;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter h2 {
+    margin-bottom: 1em;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.newsletter input[type="email"] {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+}
+
+/* Footer */
+footer {
+    background-color: #ffb6c1; /* Matching footer color */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
